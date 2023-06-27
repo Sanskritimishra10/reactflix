@@ -1,0 +1,56 @@
+body{
+    background-color: #0c1e25;
+    color: white; 
+}
+.Favorites {
+    padding: 20px;
+    background-color: #0c1e25;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .Favorites h2 {
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .Favorites .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Favorites .movie-box {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Favorites .movie-box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Favorites .movie-box h3 {
+    margin-top: 10px;
+    color: aquamarine;
+  }
+  
+  .Favorites .no-favorites {
+    text-align: center;
+    font-size: 67px;
+  }
+button{
+   color: maroon;
+   background-color: cornsilk;
+}
+button:hover{
+    background-color: darkgrey;
+}
+  
