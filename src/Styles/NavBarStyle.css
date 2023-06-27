@@ -1,6 +1,7 @@
 nav {
     width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #001219;
     align-items: center;

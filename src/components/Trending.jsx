@@ -105,7 +105,7 @@ function Trending() {
             onClick={() => settrailer(true)}
           />
         </div>
-        <Favorites favorites={favorites} toggle={toggle} />
+        {/* <Favorites favorites={favorites} toggle={toggle} /> */}
       </div>
     </Fragment>
   );
